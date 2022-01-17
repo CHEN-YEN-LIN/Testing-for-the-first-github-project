@@ -2,7 +2,7 @@ theroundofthenumber=int(input())
 for i in range(0,theroundofthenumber):
     inputnumber=list(float(x) for x in input().split())
     thedis=max(inputnumber)-min(inputnumber)
-    print("%.2f",%thedis)
+    print("%.2f"%thedis)
 
 
 # a=[]

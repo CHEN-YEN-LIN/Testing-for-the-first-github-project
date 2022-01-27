@@ -1,9 +1,16 @@
+# from re import X
+
+import bs4
+print(bs4.__version__)
+
+
+
 # 蓬蓬的課程====網路連線程式、公開資料串接====
-import urllib.request as request
-src="https://www.ntu.edu.tw"
-with request.urlopen(src) as response:
-    data=response.read().decode("utf-8")
-print(data)
+# import urllib.request as request
+# src="https://www.ntu.edu.tw"
+# with request.urlopen(src) as response:
+#     data=response.read().decode("utf-8")
+# print(data)
 
 # theroundofthenumber=int(input())
 # for i in range(0,theroundofthenumber):
